@@ -24,7 +24,7 @@ public class SplashScreen extends AppCompatActivity {
                     sleep(4000);
                 }
                 catch (Exception e) {
-                    e.printStackTrace();
+                    e.printStackTrace(); //(to catch whatever the error will be)
                 }
                 finally {
                     Intent intent=new Intent(SplashScreen.this, MainActivity.class);    //(the activity which we are on, the activity on which we have to go)
